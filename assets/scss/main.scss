@@ -120,6 +120,7 @@ a {
 
     &__title {
         margin: 0 auto;
+        font-size: 1.2rem;
     }
 }
 
@@ -314,6 +315,12 @@ a {
     
         > * {
             flex-basis: 50%;
+        }
+    }
+
+    .header {    
+        &__title {
+            font-size: 2rem;
         }
     }
 }
